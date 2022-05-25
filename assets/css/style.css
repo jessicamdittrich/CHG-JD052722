@@ -1,0 +1,121 @@
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  /*white-space: pre-wrap;*/
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* CUSTOM CSS STYLING BY MOI */
+
+.custom-rows {
+  height: 75px;
+  padding: 2.5px;
+}
+
+.custom-time {
+  margin: auto;
+}
+
+.custom-text {
+  width: 90%;
+  border-radius: 0;
+  border: none;
+  color: lightgrey;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.custom-btn {
+  width: 10%;
+}
+
+.custom-btn button {
+  width: 100%;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: none;
+  background-color: cornflowerblue;
+  font-weight: bold;
+  color: white;
+}
+
+.custom-text:active, .custom-text:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  color: lightgrey;
+}
+
+.col-8 {
+  overflow: hidden;
+}
+
+.col-8 div {
+
+}
